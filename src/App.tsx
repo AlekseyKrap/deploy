@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
+
 function App() {
+
+  useEffect(() => {
+    {console.log('useEffect')}
+  },[]);
   return (
     <div className="App">
+      {console.log('render')}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
