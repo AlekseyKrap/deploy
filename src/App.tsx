@@ -5,7 +5,6 @@ import './App.css';
 
 
 function App() {
-
   useEffect(() => {
     {console.log('useEffect')}
   },[]);
